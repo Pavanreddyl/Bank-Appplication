@@ -50,3 +50,58 @@ This banking application is designed to streamline banking operations by offerin
 The application boasts an intuitive user interface that simplifies navigation and enhances user experience for both customers and administrators. Security measures are integrated at multiple levels to protect sensitive information and maintain data integrity.
 
 This banking application is an all-in-one solution for managing customer accounts, performing transactions, and maintaining up-to-date records, ensuring smooth and efficient banking operations.
+
+
+
+
+### Banking Application
+
+Welcome to our comprehensive Banking Application, a project meticulously crafted to enhance banking operations through seamless integration of admin and customer functionalities. This application provides a secure, user-friendly interface for managing bank accounts, performing transactions, and ensuring efficient banking operations.
+
+#### **Admin Features:**
+
+1. **Admin Authentication:**
+   - Secure login with username and password.
+   - Pre-registered admin details in the database.
+
+2. **Customer Registration:**
+   - Admin registers customers with details: Full name, Address, Mobile No, Email ID, Account Type (Savings or Current), Initial Balance (min 1000), Date of Birth, and ID proof.
+   - Automatically generates an account number and a temporary password for the customer.
+
+3. **Customer Management:**
+   - Add, delete, modify, and view customer details.
+   - Ensure customer passwords and balances are not visible to admins.
+
+#### **Customer Features:**
+
+1. **Customer Authentication:**
+   - Use account number and temporary password to set a new password.
+   - Secure login with account number and new password.
+
+2. **Account Dashboard:**
+   - View account details and balance.
+   - Access the last 10 transactions in increasing or decreasing order of date.
+
+3. **Transaction Management:**
+   - Deposit and withdraw funds with real-time balance updates and transaction records.
+   - Maintain a zero balance but not go below it.
+
+4. **Account Closure:**
+   - Close accounts independently after withdrawing all funds.
+
+5. **Transaction Records:**
+   - Download a PDF of the last 10 transactions for personal records.
+
+#### **Technology Stack:**
+
+- **IDE:** Eclipse
+- **Server:** Tomcat 9
+- **Database:** MySQL Server and MySQL Workbench
+
+#### **Development Focus:**
+
+- Emphasis on complete end-to-end functionality over UI design.
+- Modularized code design and normalized database schema.
+- Ensure only authenticated users have access to the application.
+
+This banking application stands as a testament to our dedication to creating secure, efficient, and user-centric solutions for modern banking needs. Feel free to explore our repository to delve into the detailed implementation and see how we've brought this project to life.
